@@ -12,11 +12,20 @@
 // It is a stack of execution context
 // It is a stack of execution context object
 // It is a stack of lexical environment
-var n = 2;
-function squere(ab) {
-    var ans = ab * ab;
-    return ans;
+// var n = 2;
+// function squere(ab) {
+//     var ans = ab * ab;
+//     return ans;
+// }
+// console.log(squere(2));
+// console.log(squere(3));
+// console.log(squere(5));
+
+getName();
+console.log(x);
+
+var x = 7;
+
+function getName() {
+    console.log("Namaste Javascript");
 }
-console.log(squere(2));
-console.log(squere(3));
-console.log(squere(5));
