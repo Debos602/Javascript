@@ -21,8 +21,10 @@
 // console.log(squere(3));
 // console.log(squere(5));
 
+//Hoisting is a variable or function's default behavior before declaring in the code. example
 getName();
 console.log(x);
+console.log(getName);
 
 var x = 7;
 
